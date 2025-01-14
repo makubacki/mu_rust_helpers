@@ -10,7 +10,7 @@ members = [
 ]
 
 [workspace.package]
-version = "2.0.0"
+version = "2.0.1"
 publish = ["UefiTestFeed"]
 repository = "https://github.com/microsoft/mu_rust_helpers"
 license = "BSD-2-Clause-Patent"
@@ -36,11 +36,11 @@ uuid = { version = "1.10.0", default-features = false}
 name = "mu_rust_helpers"
 description = "Helper functions for UEFI Rust applications"
 readme = "README.md"
+publish = ["UefiTestFeed"]
 version.workspace = true
 repository.workspace = true
 license.workspace = true
 edition.workspace = true
-include.workspace = true
 
 [features]
 boot_services = ["dep:mu_uefi_boot_services"]
