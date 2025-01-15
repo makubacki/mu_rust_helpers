@@ -10,7 +10,7 @@ members = [
 ]
 
 [workspace.package]
-version = "2.0.1"
+version = "2.0.2"
 publish = ["UefiTestFeed"]
 repository = "https://github.com/microsoft/mu_rust_helpers"
 license = "BSD-2-Clause-Patent"
@@ -19,7 +19,8 @@ include = [
   "Cargo.toml",
   "LICENSE*",
   "README.md",
-  "examples/**/*"
+  "examples/**/*",
+  "src/**",
 ]
 
 [workspace.dependencies]
